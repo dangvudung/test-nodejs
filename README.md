@@ -1,6 +1,6 @@
 # gameloft-test-nodejs
 
- CI/CD to deploy the herolu
+ CI/CD to deploy the heroku
 
 - api branch Relive : https://test-node-30-9.herokuapp.com/
 - api brach Live: https://test-node-live.herokuapp.com/
