@@ -37,7 +37,7 @@ mongoose.connection.on("error", (err) => {
 
 app.get("/", (req, res) => {
   res.status(200).json({
-    message: "Welcome to Project",
+    message: "Welcome to Project.",
   });
 });
 
