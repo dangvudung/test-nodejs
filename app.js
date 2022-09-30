@@ -12,7 +12,7 @@ dotenv.config();
 
 const app = express();
 
-const port = 5000;
+// const port = 5000;
 
 // const abountRoutes = require
 
@@ -50,7 +50,7 @@ app.use("/api/", mainRoutes);
 // };
 
 // https.createServer(options, app).listen(port);
-
-app.listen(port, () => {
+const PORT = process.env.PORT || 5000;
+app.listen(PORT, () => {
   console.log(`Example app listening on port ${port}`);
 });
