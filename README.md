@@ -5,6 +5,12 @@
 - api branch Relive : https://test-node-30-9.herokuapp.com/
 - api brach Live: https://test-node-live.herokuapp.com/
 
+Api provide:
+
+- Create user.
+- Find user by name.
+- Update mutil user.
+
 Postman link import
 
 - https://www.getpostman.com/collections/5c191c142be8cc1231cd
