@@ -52,5 +52,5 @@ app.use("/api/", mainRoutes);
 // https.createServer(options, app).listen(port);
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
-  console.log(`Example app listening on port ${port}`);
+  console.log(`Example app listening on port ${PORT}`);
 });
